@@ -1,6 +1,3 @@
-fun main() {
-    println("Welcome to the Bank")
-    val bank = Bank("Interestec")
-
-    println(bank)
+open class BankSystem {
+    var terminateSystem: Boolean = false
 }

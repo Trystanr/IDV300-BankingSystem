@@ -1,5 +1,4 @@
-class SavingsAccount: Account() {
-    val interestRate = 0f;
+class SavingsAccount(transactionFee: Float, interestRate: Float): Account() {
 
     fun generateInterest() {
 
